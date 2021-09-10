@@ -3,45 +3,45 @@ from unittest import result
 
 from calc import add, subtract, multiply, divide
 
-# class TestAddFunc(unittest.TestCase):
-#     """
-#     проверка модуля calc в функцию
-#     """
+class TestAddFunc(unittest.TestCase):
+    """
+    проверка модуля calc в функцию
+    """
 
-#     def test_add_integer(self):
-#         result = add(25, 7)
-#         self.assertEqual(result, 32)
+    def test_add_integer(self):
+        result = add(25, 7)
+        self.assertEqual(result, 32)
 
-#     def test_add_floats(self):
-#         result = add(10.5, 3.3)
-#         self.assertEqual(result, 13.8)
+    def test_add_floats(self):
+        result = add(10.5, 3.3)
+        self.assertEqual(result, 13.8)
 
-# if __name__ == '__main__':
-#     unittest.main()         
+if __name__ == '__main__':
+    unittest.main()         
 
-# class Test_Sub_integer(unittest.TestCase):
-#     '''
-#     проверка модуля calc в функцию
-#     '''
+class Test_Sub_integer(unittest.TestCase):
+    '''
+    проверка модуля calc в функцию
+    '''
 
-#     def test_sub(self):
-#         result = subtract(47, 46)
-#         self.assertEqual(result, 13.8)
+    def test_sub(self):
+        result = subtract(47, 46)
+        self.assertEqual(result, 13.8)
 
-# if __name__ == '__main__':
-#     unittest.main()  
+if __name__ == '__main__':
+    unittest.main()  
 
-# class Test_mult(unittest.TestCase):
-#     """
-#     проверка модуля calc в функцию
-#     """
+class Test_mult(unittest.TestCase):
+    """
+    проверка модуля calc в функцию
+    """
 
-#     def test_mult(self):
-#         result = multiply(5, 5)
-#         self.assertEqual(result, 25)
+    def test_mult(self):
+        result = multiply(5, 5)
+        self.assertEqual(result, 25)
     
-# if __name__ == '__main__':
-#      unittest.main() 
+if __name__ == '__main__':
+     unittest.main() 
 
 class Mul(unittest.TestCase):
     """
